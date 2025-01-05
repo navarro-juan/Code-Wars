@@ -20,7 +20,7 @@
     // Calculate kilometers per liter
     let kpl = (mpg * kilometersPerMile) / litersPerGallon;
   
-    // Round to 2 decimal places for precision
+  
     return kpl;
   }
-  console.log(converter(10)); // Example usage
+  console.log(converter(10)); 
